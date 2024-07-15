@@ -46,73 +46,40 @@ const Testimonial = () => {
       </h3>
 
       {/* mobile screen */}
-      <Slider {...settings}>
-        <div
-          className="border border-[#7EA254]  rounded-[20px] p-[30px]
+      <div className="slider-container">
+        <Slider {...settings}>
+          {[...Array(4)].map((_, index) => (
+            <div
+              key={index}
+              className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-4 2xl:px-[15px] md:px-[10px] 2xl:pb-[50px]"
+            >
+              <div
+                className="border border-[#7EA254]  rounded-[20px] p-[30px]
          mb-[20px] 2xl:p-[60px] xl:p-[60px] lg:p-[40px] md:p-[30px]"
-        >
-          <p className="tesSlidePara">
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature 45 BC, making.
-          </p>
-          <div className="flex justify-between items-center pt-[45px]">
-            <div>
-              <h4 className="tesSlideTitle">Aubrey Logan</h4>
-              <p>Manager</p>
-            </div>
-            <div className="h-[81px] w-[95px]">
-              <img
-                className="h-full w-full object-cover"
-                src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719928195/quoteImg_mfpgwl.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className="mx-[1px]">
-          <div className="border border-[#7EA254] rounded-[20px] p-[30px] 2xl:p-[60px] xl:p-[60px] lg:p-[40px] md:p-[30px]">
-            <p className="tesSlidePara">
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature 45 BC,
-              making.
-            </p>
-            <div className="flex justify-between items-center pt-[45px]">
-              <div>
-                <h4 className="tesSlideTitle">Aubrey Logan</h4>
-                <p>Manager</p>
-              </div>
-              <div className="h-[81px] w-[95px]">
-                <img
-                  className="h-full w-full object-cover"
-                  src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719928195/quoteImg_mfpgwl.png"
-                  alt=""
-                />
+              >
+                <p className="tesSlidePara">
+                  Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature 45
+                  BC, making.
+                </p>
+                <div className="flex justify-between items-center pt-[45px]">
+                  <div>
+                    <h4 className="tesSlideTitle">Aubrey Logan</h4>
+                    <p>Manager</p>
+                  </div>
+                  <div className="h-[81px] w-[95px]">
+                    <img
+                      className="h-full w-full object-cover"
+                      src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719928195/quoteImg_mfpgwl.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div className="border border-[#7EA254] rounded-[20px] p-[30px] 2xl:p-[60px] xl:p-[60px] lg:p-[40px] md:p-[30px]">
-          <p className="tesSlidePara">
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature 45 BC, making.
-          </p>
-          <div className="flex justify-between items-center pt-[45px]">
-            <div>
-              <h4 className="tesSlideTitle">Aubrey Logan</h4>
-              <p>Manager</p>
-            </div>
-            <div className="h-[81px] w-[95px]">
-              <img
-                className="h-full w-full object-cover"
-                src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719928195/quoteImg_mfpgwl.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </Slider>
+          ))}
+        </Slider>
+      </div>
     </div>
   );
 };

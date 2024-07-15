@@ -22,6 +22,7 @@ const PopularService = () => {
     slidesToShow: 4,
     slidesToScroll: 1,
     initialSlide: 0,
+    autoplay: true,
   };
 
   return (
@@ -98,7 +99,9 @@ const PopularService = () => {
                       The mundane matters of everyday life take up a lot of time
                       and energy
                     </p>
-                    <button className="popularReadMoreBtn">Read More</button>
+                    <button className="popularReadMoreBtn underline-offset-8">
+                      Read More
+                    </button>
                   </div>
                 </div>
               </Slider>
@@ -185,7 +188,9 @@ const PopularService = () => {
                       The mundane matters of everyday life take up a lot of time
                       and energy
                     </p>
-                    <button className="largeCardBtn">Read More</button>
+                    <button className="largeCardBtn underline">
+                      Read More
+                    </button>
                   </div>
                 </div>
 
@@ -203,7 +208,9 @@ const PopularService = () => {
                       The mundane matters of everyday life take up a lot of time
                       and energy
                     </p>
-                    <button className="largeCardBtn">Read More</button>
+                    <button className="largeCardBtn underline">
+                      Read More
+                    </button>
                   </div>
                 </div>
 
@@ -221,7 +228,9 @@ const PopularService = () => {
                       The mundane matters of everyday life take up a lot of time
                       and energy
                     </p>
-                    <button className="largeCardBtn">Read More</button>
+                    <button className="largeCardBtn underline">
+                      Read More
+                    </button>
                   </div>
                 </div>
 
@@ -239,7 +248,9 @@ const PopularService = () => {
                       The mundane matters of everyday life take up a lot of time
                       and energy
                     </p>
-                    <button className="largeCardBtn">Read More</button>
+                    <button className="largeCardBtn underline">
+                      Read More
+                    </button>
                   </div>
                 </div>
               </Slider>
