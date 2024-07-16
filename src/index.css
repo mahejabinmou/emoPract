@@ -455,27 +455,27 @@
     @apply h-[233px] w-[170px]
     2xl:h-[478px]
     xl:h-[478px]
-    md:h-[478px]
-    lg:h-[478px];
+    md:h-[448px]
+    lg:h-[448px];
   }
 
   .img2 {
     @apply h-[118px] w-[172px] mt-[15px]
     2xl:h-[242px] 2xl:mt-[30px]
     xl:h-[242px] xl:mt-[30px]
-    lg:h-[242px] lg:mt-[30px]
-    md:h-[242px] md:mt-[30px];
+    lg:h-[212px] lg:mt-[15px]
+    md:h-[212px] md:mt-[15px];
   }
 
   .img3 {
     @apply h-[366px]
     2xl:h-[750px]
     xl:h-[750px]
-    lg:h-[750px]
-    md:h-[750px];
+    lg:h-[675px]
+    md:h-[675px];
   }
 
-  .img4 {
+  /* .img4 {
     @apply h-[200px] my-[15px]
     2xl:h-[250px]  2xl:my-[15px]
     xl:h-[250px]  xl:my-[15px]
@@ -485,7 +485,7 @@
 
   .img5 {
     @apply h-[233px] w-[176px] mb-[15px];
-  }
+  } */
 
   .img6 {
     @apply h-[118px] w-[176px] mb-[15px];

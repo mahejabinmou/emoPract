@@ -5,7 +5,8 @@ import { FaLocationDot } from "react-icons/fa6";
 const EventGallery = () => {
   return (
     <div className="sectionGap">
-      <div>
+      {/* mobile screen */}
+      <div className="block md:hidden">
         <p className="eventGallarySmall">Events</p>
         <h2 className="eventGarlleryTitle">Trending events</h2>
 
@@ -376,6 +377,198 @@ const EventGallery = () => {
             </div>
           </div>
         </div>
+        <button className="exploreMemberShip">Explore Membership </button>
+      </div>
+
+      {/* big screen */}
+      <div className="hidden md:block">
+        <p className="eventGallarySmall text-center">Events</p>
+        <h2 className="eventGarlleryTitle text-center">Trending events</h2>
+
+        <div
+          className=" flex 2xl:gap-x-[30px] xl:gap-x-[30px]
+            lg:gap-x-[15px] md:gap-x-[15px] "
+        >
+          {/*1,2,3 pic */}
+          <div
+            className="  grid  grid-cols-2  2xl:grid-cols-2 2xl:justify-between 
+        xl:grid-cols-2 xl:justify-between
+        md:grid-cols-2 md:justify-between
+        lg:grid-cols-2 lg:justify-between 
+      justify-between gap-x-[15px]  2xl:gap-x-[30px] 
+       xl:gap-x-[30px]  lg:gap-x-[15px]  md:gap-x-[15px] "
+          >
+            <div className=" ">
+              <div className="img1 w-full">
+                <img
+                  className="h-full w-full  rounded-[10px]"
+                  src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719349378/Emopract/image_1_ydzyp5.png"
+                  alt=""
+                />
+              </div>
+              <div className="img2 w-full">
+                <img
+                  className="h-full w-full  rounded-[10px]"
+                  src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719349631/Emopract/imgtow_s3zhi8.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div>
+              <div className="img3 w-full">
+                <img
+                  className="h-full w-full  rounded-[10px]"
+                  src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719349784/Emopract/img3_y7z7gq.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div>
+            {/* 4 and  5 pic */}
+            <div
+              className="flex 2xl:gap-x-[30px] xl:gap-x-[30px]
+            lg:gap-x-[15px] md:gap-x-[15px]"
+            >
+              <div className="w-1/3  2xl:h-[242px] xl:h-[242px] lg:h-[212px] md:h-[212px]">
+                <img
+                  className="h-full w-full  rounded-[10px]"
+                  src="https://i.ibb.co/09rzDjL/image-1.png"
+                  alt=""
+                />
+              </div>
+
+              <div className=" w-2/3 2xl:h-[242px] xl:h-[242px] lg:h-[212px] md:h-[212px] ">
+                <img
+                  className="h-full w-full  rounded-[10px]"
+                  src="https://i.ibb.co/ckKkGG2/image-2.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            {/* 6 and 7 pic */}
+            <div
+              className="flex 2xl:gap-x-[30px]  2xl:my-[30px]
+            xl:gap-x-[30px]  xl:my-[30px] lg:gap-x-[15px]  lg:mt-[15px]
+            md:gap-x-[15px]  md:mt-[15px]"
+            >
+              <div className="w-1/3  2xl:h-[478px] xl:h-[478px] lg:h-[448px] md:h-[448px]">
+                <img
+                  className="h-full w-full  rounded-[10px]"
+                  src="https://i.ibb.co/VDY8ywF/image-3.png"
+                  alt=""
+                />
+              </div>
+              <div className="  w-2/3 2xl:h-[478px] xl:h-[478px] lg:h-[448px] md:h-[448px]">
+                <img
+                  className="h-full w-full  rounded-[10px]"
+                  src="https://i.ibb.co/3srckzj/image-4.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* 8 pic */}
+        <div className="2xl:h-[750px] xl:h-[750px] lg:h-[675px] md:h-[675px] 2xl:mb-[30px] xl:mb-[30px] lg:mb-[15px] md:mb-[15px]">
+          <img
+            className="h-full w-full  rounded-[10px]"
+            src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719563524/Emopract/middleImg_seijua.jpg"
+            alt=""
+          />
+        </div>
+        <div
+          className=" flex 2xl:gap-x-[30px] xl:gap-x-[30px]
+            lg:gap-x-[15px] md:gap-x-[15px] "
+        >
+          {/*1,2,3 pic */}
+          <div
+            className="  grid  grid-cols-2  2xl:grid-cols-2 2xl:justify-between 
+        xl:grid-cols-2 xl:justify-between
+        md:grid-cols-2 md:justify-between
+        lg:grid-cols-2 lg:justify-between 
+      justify-between gap-x-[15px]  2xl:gap-x-[30px] 
+       xl:gap-x-[30px]  lg:gap-x-[15px]  md:gap-x-[15px] "
+          >
+            <div className=" ">
+              <div className="img1 w-full">
+                <img
+                  className="h-full w-full  rounded-[10px]"
+                  src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719349378/Emopract/image_1_ydzyp5.png"
+                  alt=""
+                />
+              </div>
+              <div className="img2 w-full">
+                <img
+                  className="h-full w-full  rounded-[10px]"
+                  src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719349631/Emopract/imgtow_s3zhi8.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div>
+              <div className="img3 w-full">
+                <img
+                  className="h-full w-full  rounded-[10px]"
+                  src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719349784/Emopract/img3_y7z7gq.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div>
+            {/* 4 and  5 pic */}
+            <div
+              className="flex 2xl:gap-x-[30px] xl:gap-x-[30px]
+            lg:gap-x-[15px] md:gap-x-[15px]"
+            >
+              <div className="w-1/3  2xl:h-[242px] xl:h-[242px] lg:h-[212px] md:h-[212px]">
+                <img
+                  className="h-full w-full  rounded-[10px]"
+                  src="https://i.ibb.co/09rzDjL/image-1.png"
+                  alt=""
+                />
+              </div>
+
+              <div className=" w-2/3 2xl:h-[242px] xl:h-[242px] lg:h-[212px] md:h-[212px] ">
+                <img
+                  className="h-full w-full  rounded-[10px]"
+                  src="https://i.ibb.co/ckKkGG2/image-2.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            {/* 6 and 7 pic */}
+            <div
+              className="flex 2xl:gap-x-[30px]  2xl:my-[30px]
+            xl:gap-x-[30px]  xl:my-[30px] lg:gap-x-[15px]  lg:mt-[15px]
+            md:gap-x-[15px]  md:mt-[15px]"
+            >
+              <div className="w-1/3  2xl:h-[478px] xl:h-[478px] lg:h-[448px] md:h-[448px]">
+                <img
+                  className="h-full w-full  rounded-[10px]"
+                  src="https://i.ibb.co/VDY8ywF/image-3.png"
+                  alt=""
+                />
+              </div>
+              <div className="  w-2/3 2xl:h-[478px] xl:h-[478px] lg:h-[448px] md:h-[448px]">
+                <img
+                  className="h-full w-full  rounded-[10px]"
+                  src="https://i.ibb.co/3srckzj/image-4.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
         <button className="exploreMemberShip">Explore Membership </button>
       </div>
     </div>
