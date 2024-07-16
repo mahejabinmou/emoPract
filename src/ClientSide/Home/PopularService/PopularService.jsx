@@ -54,7 +54,7 @@ const PopularService = () => {
                   <div className="h-[350px] md:h-full">
                     <img
                       className="h-full w-full object-cover rounded-[10px]"
-                      src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719494528/Emopract/homeSliderImg_s1d8hx.jpg"
+                      src="https://i.ibb.co/DwCWpHc/WDW-0921.jpg"
                       alt=""
                     />
                   </div>
@@ -125,7 +125,7 @@ const PopularService = () => {
                   alt=""
                 />
               </div>
-              <div className="absolute top-[165px] w-full">
+              <div className="absolute top-[165px] w-full ">
                 <div className="bg-[#F2F2F2] mx-[36px]  rounded-[10px]">
                   <h3 className="eventCardTitle text-[#7EA254]">
                     request for a session!
@@ -259,10 +259,10 @@ const PopularService = () => {
 
           <div className="bg-[#7EA254]">
             <div
-              className="grid 2xl:grid-cols-2 2xl:pt-[384px] 2xl:mx-[240px] 2xl:gap-x-[100px]
-            xl:grid-cols-2 xl:pt-[384px] xl:mx-[200px] xl:gap-x-[80px]
-             lg:grid-cols-2 lg:pt-[384px] lg:mx-[100px] lg:gap-x-[50px]
-            md:grid-cols-2 md:pt-[384px] md:mx-[50px] md:gap-x-[30px]"
+              className="grid 2xl:grid-cols-2 2xl:pt-[377px] 2xl:mx-[240px] 2xl:gap-x-[100px]
+            xl:grid-cols-2 xl:pt-[377px] xl:mx-[200px] xl:gap-x-[80px]
+             lg:grid-cols-2 lg:pt-[377px] lg:mx-[100px] lg:gap-x-[50px]
+            md:grid-cols-2 md:pt-[377px] md:mx-[50px] md:gap-x-[30px]"
             >
               <div className="  ">
                 <div className="w-full h-full   bg-[#F2F2F2]   rounded-[10px]">
