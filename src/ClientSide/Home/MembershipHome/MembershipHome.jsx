@@ -3,7 +3,7 @@ import React from "react";
 
 const MembershipHome = () => {
   return (
-    <div className="bg-[#EDEDED] mt-[60px]">
+    <div className="bg-[#EDEDED] sectionGap">
       <div className="py-[51px] px-[36px] 2xl-[100px] xl-[100px] md-[100px] ">
         <div>
           <p className="homeMemberShipSamll 2xl:text-center xl:text-center lg:text-center md:text-center">

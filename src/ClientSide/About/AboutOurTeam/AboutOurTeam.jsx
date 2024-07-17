@@ -133,13 +133,15 @@ const AboutOurTeam = () => {
   return (
     <div className="sectionGap">
       <div className="lg:text-center md:text-center xl:text-center 2xl:text-center">
-        <p className="ourServiceSmall">Our Team</p>
-        <h3 className="ourServiceTitle">Most Expert People</h3>
+        <p className="ourServiceSmall">our Team</p>
+        <h3 className="ourServiceTitle">human asset</h3>
         <div className="ourServieParaTextParent">
           <p className="ourServicePara">
-            Do you want to live in a place full of comfort and convenience,
-            where electricity is produced by itself and you also save on it?
-            With us, it can come true faster than you think.
+            They are young individuals who are friendly, courteous and
+            compassionate. They are handpicked and trained to get the job done
+            efficiently and fast, upholding Emopract’s high levels of
+            professionalism.They subscribe to the company's vision of quality
+            care delivered with complete responsibility.
           </p>
         </div>
       </div>

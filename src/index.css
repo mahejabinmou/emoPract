@@ -482,11 +482,11 @@
     lg:h-[250px]  lg:my-[15px]
     md:h-[250px]  md:my-[15px];
   }
-  /*
+
   .img5 {
     @apply h-[233px] w-[176px] mb-[15px];
   }
-  */
+
   .img6 {
     @apply h-[118px] w-[176px] mb-[15px];
   }
@@ -983,6 +983,61 @@
     2xl:text-[18px] 2xl:leading-[26px] 2xl:pb-[50px] font-Varela font-normal text-center text-white;
   }
 
+  .ourStorySmallAbout {
+    @apply text-[30px] leading-[34px] pb-[15px]
+    /* ========== */
+    md:text-[35px] md:leading-[35px] md:pb-[20px]
+    /* ========== */
+    lg:text-[40px] lg:leading-[40px] lg:pb-[20px]
+    /* ========== */
+    xl:text-[40px] xl:leading-[40px] xl:pb-[20px]
+    /* ========== */
+    2xl:text-[50px] 2xl:leading-[57px] 2xl:pb-[25px]
+    /* =========== */
+    font-Ubuntu font-bold text-[#7EA254];
+  }
+
+  .ourStoryTitle {
+    @apply text-[30px] leading-[35px] md:text-[35px] md:leading-[40px] lg:text-[40px] lg:leading-[36px]
+    /* ======= */
+    xl:text-[45px] xl:leading-[41px]
+    /* ======= */
+    2xl:text-[50px] 2xl:leading-[59px]
+    /* ======== */
+    font-Ubuntu font-bold text-[#7EA254];
+  }
+
+  .storyDoctorName {
+    @apply text-[20px] leading-[26px] md:text-[20px] md:leading-[26px] lg:text-[22px] lg:leading-[28px] 2xl:text-[24px] 2xl:leading-[28px]
+    /* ======= */
+    font-Ubuntu font-bold text-[#7EA254];
+  }
+
+  .storyDoctorDes {
+    @apply text-[12px] leading-[20px]
+    /* ======= */
+    md:text-[14px] md:leading-[16px] md:pb-[0px]
+    /* ========== */
+    lg:text-[16px] lg:leading-[18px] lg:pb-[0px]
+    /* ========== */
+    xl:text-[18px] xl:leading-[20px] xl:pb-[0px]
+    /* ========== */
+    2xl:text-[18px] 2xl:leading-[26px] 2xl:pb-[50px]
+    /* =========== */
+    font-Varela font-normal;
+  }
+
+  .ourStoryPara {
+    @apply text-[12px] leading-[18px] pb-[35px]
+    /* =============== */
+    md:text-[14px] md:leading-[16px] md:pb-[40px]
+    /* ========== */
+    lg:text-[16px] lg:leading-[18px] lg:pb-[50px]
+    /* ========== */
+    xl:text-[18px] xl:leading-[20px] xl:pb-[80px]
+    /* ========== */
+    2xl:text-[18px] 2xl:leading-[26px] 2xl:pb-[50px] font-Varela font-normal text-center text-white;
+  }
   .aboutTeamSubtitle {
     @apply text-[12px] leading-[18px] pb-[10px]
     /* =========== */

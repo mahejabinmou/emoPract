@@ -8,8 +8,8 @@ import DiscoverMoment from "../Event/DiscoverMoment/DiscoverMoment";
 import Reels from "./Reels/Reels";
 import Testimonial from "./Testimonial/Testimonial";
 import Footer from "./../Shared/Footer/Footer";
-import MemberTrending from "../Membership/MemberTrending/MemberTrending";
 import AboutOurTeam from "../About/AboutOurTeam/AboutOurTeam";
+import Events from "./Events/Events";
 
 const Home = () => {
   return (
@@ -17,11 +17,9 @@ const Home = () => {
       <HeroSection></HeroSection>
       <ChooseUs></ChooseUs>
       <PopularService></PopularService>
-      {/* <Events></Events> */}
-      <MemberTrending />
+      <Events></Events>
       <MembershipHome></MembershipHome>
       <Reels></Reels>
-      {/* <OurTeam></OurTeam> */}
       <AboutOurTeam />
       <DiscoverMoment></DiscoverMoment>
       <Testimonial></Testimonial>

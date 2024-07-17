@@ -64,7 +64,7 @@ const AboutOurMission = () => {
   const [currentIndex, setCurrentIndex] = React.useState(0);
 
   return (
-    <div className="w-full  mx-auto pt-[60px] md:pt-[80px] lg:pt-[100px] 2xl:pt-[200px]">
+    <div className="w-full  mx-auto sectionGap">
       <Slider {...settings}>
         {images.map((image, index) => (
           <div

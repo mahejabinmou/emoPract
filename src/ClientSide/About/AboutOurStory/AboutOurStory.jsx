@@ -1,3 +1,4 @@
+/* eslint-disable no-irregular-whitespace */
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 
@@ -5,10 +6,32 @@ const AboutOurStory = () => {
   return (
     <div>
       <div className="sectionGap">
-        <div className="lg:text-center md:text-center lg:px-[15%] 2xl:px-[28%]">
-          <p className="ourStorySmall">Our Story</p>
-          <h3 className="ourStoryTitle">
-            what has been the impetus behind emopract?{" "}
+        <div className="">
+          <p className="ourStorySmallAbout">our story</p>
+
+          <p className="ourServicePara pb-[15px] 2xl:pb-[25px]">
+            In India, senior citizens, i.e. people aged 60 years and above,
+            currently comprise a little over 10% of the population, translating
+            to about 104 million. The United Nations Population Fund (UNFPA)
+            projects that this population, which will make up 158 million people
+            by 2025
+          </p>
+
+          <div className="w-full h-[222px] 2xl:h-[1043px]">
+            <img className=" " src="./graph.png" alt="" />
+          </div>
+
+          <p className="ourServicePara pb-[15px] pt-[15px] 2xl:pb-[25px]">
+            Emopract family is built specifically to serve elders. It comprises
+            a group of gender diverse talented young professionals. These
+            handpicked and meticulously trained individuals manage finance,
+            human assets, social media, marketing innovations, blogging,
+            technology integration, creative event management…a host of factors
+            to ensure wellness and joys of living for senior citizens
+          </p>
+
+          <h3 className="ourStoryTitle pt-[60px] 2xl:pt-[200px]">
+            emopract is for you ..{" "}
           </h3>
         </div>
       </div>
@@ -66,12 +89,7 @@ const AboutOurStory = () => {
             positive and empowered work environment, creating true corporate
             social impact. The fruitful fusion of arts, culture, social causes,
             livelihood opportunities, and a spontaneous joie de vivre brings us
-            together. Team Emopract is built specifically to serve elders. It
-            comprises a group of gender diverse talented young professionals.
-            These handpicked and meticulously trained individuals manage
-            finance, human assets, social media, marketing innovations,
-            blogging, technology integration, creative event management…a host
-            of factors to ensure wellness and joys of living for senior citizens
+            together.
           </p>
         </div>
       </div>
