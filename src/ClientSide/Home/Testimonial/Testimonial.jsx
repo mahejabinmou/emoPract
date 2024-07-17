@@ -42,7 +42,7 @@ const Testimonial = () => {
         Testimonials
       </p>
       <h3 className="tesTitle 2xl:text-center xl:text-center lg:text-center md:text-center">
-        A visual journey through our gallery
+        our smiling family
       </h3>
 
       {/* mobile screen */}

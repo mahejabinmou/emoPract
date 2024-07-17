@@ -10,13 +10,8 @@ const MembershipHome = () => {
             Our Membership
           </p>
           <h3 className="homeMemberShipTitle  text-center">
-            our most popular membership package
+            membership package
           </h3>
-          <p className="membershipPara 2xl:px-[300px] xl:px-[250px] lg:px-[50px] md:px-[30px] 2xl:text-center xl:text-center lg:text-center md:text-center">
-            Do you want to live in a place full of comfort and convenience,
-            where electricity is produced by itself and you also save on it?
-            With us it can come true faster than you.
-          </p>
         </div>
         <div
           className="grid grid-cols-1 gap-y-[15px] cursor-pointer

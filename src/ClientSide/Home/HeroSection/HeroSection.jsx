@@ -226,8 +226,8 @@ const HeroSection = () => {
                                     xl:pb-[35px] xl:px-[15%]
                                     "
                   >
-                    Elders are our roots. They envelop us in affection, and
-                    motivate us to fly high.
+                    In turn, we need to be their shade and support, ensuring
+                    "Wellness" in their advanced years.
                   </p>
 
                   <p
@@ -268,8 +268,8 @@ const HeroSection = () => {
                                     xl:pb-[35px] xl:px-[15%]
                                     "
                   >
-                    Elders are our roots. They envelop us in affection, and
-                    motivate us to fly high.
+                    By having them experience "Joys of Living" when they need
+                    them the most.
                   </p>
 
                   <p
@@ -277,48 +277,6 @@ const HeroSection = () => {
                                     lg:pb-[30px] lg:block hidden
                                     xl:pb-[35px] 
                                     2xl:pb-[50px]
-                                    
-                                    "
-                  >
-                    Elders are our roots. They envelop us in affection, and
-                    motivate us to fly high. In turn, we need to be their shade
-                    and support, ensuring "Wellness" in their advanced years,
-                    and providing "Joys of Living" when they need them the most.
-                    They heralded the dawn of our days; let us assist them to
-                    enjoy their golden years in tranquility.
-                  </p>
-
-                  <button className="heroHomeBtn">Request a Call back</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* slider four */}
-          <div className="relative">
-            <div className='bg-[url("https://res.cloudinary.com/dshn2s0tc/image/upload/v1719490307/Emopract/coomonHero_jzrn0s.png")] bg-no-repeat bg-center bg-cover w-[100%] h-[100dvh]'>
-              {/* Hero Image Content */}
-              <div className="heroImgParent">
-                <div>
-                  <h2 className="commonTitle pb-[10px] md:pb-[15px] lg:pb-[15px]xl:pb-[25px] 2xl:pb-[25px]">
-                    embrace empathize empower
-                  </h2>
-                  <p
-                    className="commonParagraph 
-                                    pb-[25px] px-[10%] 
-                                    md:pb-[30px] md:px-[15%] lg:hidden block
-                                    lg:pb-[30px] lg:px-[15%]
-                                    xl:pb-[35px] xl:px-[15%]
-                                    "
-                  >
-                    Elders are our roots. They envelop us in affection, and
-                    motivate us to fly high.
-                  </p>
-
-                  <p
-                    className="commonParagraph 
-                                    lg:pb-[30px] lg:block hidden
-                                    xl:pb-[35px] 
                                     
                                     "
                   >
