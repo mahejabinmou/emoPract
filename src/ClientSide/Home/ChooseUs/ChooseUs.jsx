@@ -14,15 +14,14 @@ const ChooseUs = () => {
         </div>
         <div>
           <p className="chooseUsSamll">Why Choose Us</p>
-          <h3 className="chooseUsTitle">
-            most experience care for senior person
-          </h3>
+          <h3 className="chooseUsTitle">most joyful service for elders</h3>
           <p className="chooseUsParaText">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using Content here.
+            We are a group of enthusiastic, affectionate and trained personnel
+            to accompany you in your journey of life. Our team looks forward to
+            being with you, by you, like a family member. The greatest happiness
+            comes from knowing that there is someone to rely on
           </p>
+
           <button className="chooseusKnowbtn">Know More</button>
         </div>
       </div>

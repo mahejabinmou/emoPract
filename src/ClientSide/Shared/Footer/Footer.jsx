@@ -79,7 +79,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h2 className="footerMenuTextTitle">emopract pvt ltd</h2>
+            <h2 className="footerMenuTextTitle">Emopract Pvt Ltd</h2>
             <p className="footerMenuText">Bhakta Tower</p>
             <p className="footerMenuText">KB-22, KB Block</p>
             <p className="footerMenuText">Sector- 3, Salt Lake</p>

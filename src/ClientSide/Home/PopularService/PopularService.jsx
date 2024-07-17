@@ -33,14 +33,16 @@ const PopularService = () => {
             <p className="popularSmallText">Our Services</p>
             <h2 className="popularSmallTitle">our most popular services</h2>
             <p className="popularDes md:hidden">
-              Do you want to live in a place full of comfort and convenience,
-              where electricity is produced by itself and you also save on it?
-              With us it can come true faster than you.
+              Joys of Life – the so-called trivialities and intangibles that add
+              up to constitute a rich and full life, is our unique offering to
+              our esteemed members. Our wellness buddies bring comfort and peace
+              of mind with proactive care for health-related ailments.
             </p>
             <p className="popularDesLarge hidden md:block">
-              Do you want to live in a place full of comfort and convenience,
-              where electricity is produced by itself and you also save on it?
-              With us it can come true faster than you.
+              Joys of Life – the so-called trivialities and intangibles that add
+              up to constitute a rich and full life, is our unique offering to
+              our esteemed members. Our wellness buddies bring comfort and peace
+              of mind with proactive care for health-related ailments.
             </p>
           </div>
         </div>
@@ -113,8 +115,9 @@ const PopularService = () => {
               <p className="getIntouchSmall">Get In Touch</p>
               <h3 className="getTitle">free consultation</h3>
               <p className="getParaText">
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
+                We understand that you may need more details on our services and
+                we care to clarify all of your doubts. Please reach out and help
+                us to schedule a call with you.
               </p>
             </div>
             <div className="relative">
@@ -312,9 +315,9 @@ const PopularService = () => {
                   </p>
                   <h3 className="getTitle">free consultation</h3>
                   <p className="getParaText">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout.
+                    We understand that you may need more details on our services
+                    and we care to clarify all of your doubts. Please reach out
+                    and help us to schedule a call with you.
                   </p>
                 </div>
 
