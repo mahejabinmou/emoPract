@@ -1327,7 +1327,7 @@
   }
 
   .homeMemberShipTitle {
-    @apply text-[30px] leading-[35px] pb-[15px]
+    @apply text-[30px] leading-[35px] pb-[25px]
     /* ======= */
     md:text-[30px] md:leading-[45px] md:pb-[15px]
     /* ======= */
