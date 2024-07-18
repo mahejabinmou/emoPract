@@ -12,7 +12,7 @@
   .sectionGap {
     @apply mt-[60px] px-[30px]
     /* ======= */
-    md:mt-[80px] md:px-[20px]
+    md:mt-[80px] md:px-[32px]
     /* ======= */
     lg:px-[60px] lg:mt-[80px]
     /* ======= */
@@ -424,11 +424,11 @@
     font-Ubuntu font-medium text-white bg-[#7EA254] rounded-full;
   }
   .eventGarlleryTitle {
-    @apply text-[30px] leading-[35px] pt-[15px] pb-[25px]
+    @apply text-[32px] leading-[37px] pt-[15px] pb-[25px]
     /* ==================== */
-    md:text-[40px] md:leading-[50px] md:pt-[20px] md:pb-[36px]
+    md:text-[35px] md:leading-[40px] md:pt-[20px] md:pb-[36px]
      /* ==================== */
-     lg:text-[48px] lg:leading-[40px] lg:pt-[20px] lg:pb-[50px]
+     lg:text-[30px] lg:leading-[40px] lg:pt-[20px] lg:pb-[50px]
       /* ==================== */
       xl:text-[48px] xl:leading-[58px] xl:pt-[20px] xl:pb-[60px]
        /* ==================== */
@@ -1359,7 +1359,7 @@
     /* ============ */
     md:text-[24px] md:leading-[32px] md:px-[30px] md:py-[20px] md:rounded-[10px]
     /* ============ */
-    lg:text-[30px] lg:leading-[32px] lg:px-[50px] lg:py-[30px] lg:rounded-[10px]
+    lg:text-[24px] lg:leading-[32px] lg:px-[50px] lg:py-[30px] lg:rounded-[10px]
     /* ============ */
     xl:text-[35px] xl:leading-[32px] xl:px-[80px] xl:py-[40px] xl:rounded-[10px]
    /* ============ */
@@ -1373,7 +1373,7 @@
     /* ============ */
     md:text-[24px] md:leading-[32px] md:px-[30px] md:py-[20px] md:rounded-[10px]
     /* ============ */
-    lg:text-[30px] lg:leading-[32px] lg:px-[50px] lg:py-[30px] lg:rounded-[10px]
+    lg:text-[24px] lg:leading-[32px] lg:px-[50px] lg:py-[30px] lg:rounded-[10px]
     /* ============ */
     xl:text-[35px] xl:leading-[32px] xl:px-[80px] xl:py-[40px] xl:rounded-[10px]
    /* ============ */
@@ -1387,7 +1387,7 @@
     /* ============ */
     md:text-[24px] md:leading-[32px] md:px-[30px] md:py-[20px] md:rounded-[10px]
     /* ============ */
-    lg:text-[30px] lg:leading-[32px] lg:px-[50px] lg:py-[30px] lg:rounded-[10px]
+    lg:text-[24px] lg:leading-[32px] lg:px-[50px] lg:py-[30px] lg:rounded-[10px]
     /* ============ */
     xl:text-[35px] xl:leading-[32px] xl:px-[80px] xl:py-[40px] xl:rounded-[10px]
    /* ============ */

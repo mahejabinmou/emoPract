@@ -99,8 +99,11 @@ const Footer = () => {
         <hr />
 
         <div className="py-[25px] px-[30px] 2xl:py-[30px]  md:px-[50px]  lg:px-[60px] xl:px-[100px] ">
-          <div className="flex justify-between items-center space-x-[40px]">
-            <p className="footerMenuText">
+          <div
+            className="flex justify-center items-center space-x-[40px]
+          "
+          >
+            <p className="footerMenuText ">
               Copyright © Emopract 2024. Designed and Developed Ethically By{" "}
               <span>
                 <Link

@@ -13,8 +13,8 @@ const MembershipHome = () => {
         </div>
         <div
           className="grid grid-cols-1 gap-y-[15px] cursor-pointer
-        2xl:grid-cols-3 2xl:gap-x-[60px] 2xl:pt-[50px]  xl:pt-[40px] lg:pt-[40px]  md:pt-[40px] xl:grid-cols-3 xl:gap-x-[52px]
-        lg:grid-cols-3 lg:gap-x-[40px] md:grid-cols-3 md:gap-x-[20px] "
+        2xl:grid-cols-3 2xl:gap-x-[60px] 2xl:pt-[50px]  xl:pt-[40px] lg:pt-[40px]  md:pt-[40px] xl:grid-cols-3 xl:gap-x-[50px]
+        lg:grid-cols-3 lg:gap-x-[50px] md:grid-cols-3 md:gap-x-[30px] "
         >
           <button className="membershipbtnOne">Annual Plan</button>
           <button className="membershipbtnTwo">Annual Plan</button>
