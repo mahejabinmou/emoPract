@@ -41,11 +41,13 @@ const Events = () => {
   return (
     <div
       className="mt-[120px] px-[32px] 2xl:px-[100px] 2xl:mt-[200px]
-    xl:px-[100px] xl:mt-[200px] lg:px-[60px] lg:mt-[80px] "
+    xl:px-[100px] xl:mt-[200px] lg:px-[60px] lg:mt-[80px] md:px-[60px] md:mt-[80px] "
     >
       <div>
         <p className="memberSmall">Events</p>
-        <h2 className="memberTitle pb-[25px] lg:pb-[50px]">Trending events</h2>
+        <h2 className="memberTitle pb-[25px] lg:pb-[50px] md:pb-[50px] ">
+          Trending events
+        </h2>
       </div>
 
       {/* ========= mobile slider ==== */}
