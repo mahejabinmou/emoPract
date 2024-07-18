@@ -24,7 +24,6 @@ const AboutOurStory = () => {
             className="w-full h-[222px] 2xl:h-[1043px] xl:h-[750px] lg:h-[550px]
           md:h-[420px]"
           >
-            {/* b */}
             <img className=" " src="./graph.png" alt="" />
           </div>
 

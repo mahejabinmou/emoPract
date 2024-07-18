@@ -424,7 +424,7 @@
     font-Ubuntu font-medium text-white bg-[#7EA254] rounded-full;
   }
   .eventGarlleryTitle {
-    @apply text-[32px] leading-[37px] pt-[15px] pb-[25px]
+    @apply text-[32px] leading-[30px] pt-[15px] pb-[25px]
     /* ==================== */
     md:text-[35px] md:leading-[40px] md:pt-[20px] md:pb-[36px]
      /* ==================== */
@@ -455,24 +455,24 @@
     @apply h-[233px] w-[170px]
     2xl:h-[478px]
     xl:h-[478px]
-    md:h-[448px]
-    lg:h-[448px];
+    md:h-[200px]
+    lg:h-[300px];
   }
 
   .img2 {
     @apply h-[118px] w-[172px] mt-[15px]
     2xl:h-[242px] 2xl:mt-[30px]
     xl:h-[242px] xl:mt-[30px]
-    lg:h-[212px] lg:mt-[15px]
-    md:h-[212px] md:mt-[15px];
+    lg:h-[150px] lg:mt-[15px]
+    md:h-[100px] md:mt-[10px];
   }
 
   .img3 {
     @apply h-[366px]
     2xl:h-[750px]
     xl:h-[750px]
-    lg:h-[675px]
-    md:h-[675px];
+    lg:h-[465px]
+    md:h-[310px];
   }
 
   .img4 {
