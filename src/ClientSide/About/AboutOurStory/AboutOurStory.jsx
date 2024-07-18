@@ -9,7 +9,10 @@ const AboutOurStory = () => {
         <div className="">
           <p className="ourStorySmallAbout">our story</p>
 
-          <p className="ourServicePara pb-[15px] 2xl:pb-[25px]">
+          <p
+            className="ourServicePara pb-[15px] 2xl:pb-[25px]
+          xl:pb-[25px]  lg:pb-[25px]  md:pb-[25px]"
+          >
             In India, senior citizens, i.e. people aged 60 years and above,
             currently comprise a little over 10% of the population, translating
             to about 104 million. The United Nations Population Fund (UNFPA)
@@ -17,11 +20,17 @@ const AboutOurStory = () => {
             by 2025
           </p>
 
-          <div className="w-full h-[222px] 2xl:h-[1043px]">
+          <div
+            className="w-full h-[222px] 2xl:h-[1043px] xl:h-[750px] lg:h-[550px]
+          md:h-[420px]"
+          >
             <img className=" " src="./graph.png" alt="" />
           </div>
 
-          <p className="ourServicePara pb-[15px] pt-[15px] 2xl:pb-[25px]">
+          <p
+            className="ourServicePara pb-[15px] pt-[15px] 2xl:pb-[25px] 2xl:pt-[30px]
+         xl:pt-[30px] xl:pb-[25px]  lg:pb-[25px]  lg:pt-[30px] md:pb-[25px] md:pt-[25px]"
+          >
             Emopract family is built specifically to serve elders. It comprises
             a group of gender diverse talented young professionals. These
             handpicked and meticulously trained individuals manage finance,
@@ -30,7 +39,10 @@ const AboutOurStory = () => {
             to ensure wellness and joys of living for senior citizens
           </p>
 
-          <h3 className="ourStoryTitle pt-[60px] 2xl:pt-[200px]">
+          <h3
+            className="ourStoryTitle pt-[60px] 2xl:pt-[200px] xl:pt-[200px]
+          lg:pt-[100px] md:pt-[80px]"
+          >
             emopract is for you ..{" "}
           </h3>
         </div>
