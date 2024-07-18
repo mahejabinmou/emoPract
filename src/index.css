@@ -426,7 +426,7 @@
   .eventGarlleryTitle {
     @apply text-[32px] leading-[30px] pt-[15px] pb-[25px]
     /* ==================== */
-    md:text-[35px] md:leading-[40px] md:pt-[20px] md:pb-[36px]
+    md:text-[30px] md:leading-[35px] md:pt-[20px] md:pb-[36px]
      /* ==================== */
      lg:text-[30px] lg:leading-[40px] lg:pt-[20px] lg:pb-[50px]
       /* ==================== */
